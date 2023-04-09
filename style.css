@@ -1,0 +1,405 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    box-sizing: border-box;
+    margin-left: 0 20px;
+}
+.dropdown-container{
+    display: inline;
+    position: relative;
+}
+.dropdown{
+    position: absolute;
+    display: none;
+}
+.dropdown a{
+    display: block;
+}
+.dropdown-container:hover .dropdown{
+    display: block;
+    background-color: white;
+    width: 10rem;
+}
+
+.dropdown a:hover{
+    background-color: #f0eaea;
+}
+
+
+/* <!-- header start here --> */
+
+header{
+
+    background-color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        min-height: 5vh;
+
+        padding: 0 30px;
+        margin-right: 10rem;
+        width: 100%;
+
+        flex-wrap: wrap;
+}
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    padding:15px; 
+    
+}
+.cart{
+    padding-left: 1rem;
+    padding-right: 5rem;
+    
+    color: black;
+}
+.search-btn{
+    color: #000;
+    padding-left: 5rem;
+}
+.menu-bar1 ul {
+    display: flex;
+    font-size: 20px;
+    margin-left: 0;
+    width: auto;
+}
+.menu-bar1 ul li{
+    list-style-type: none;
+    width: auto;
+}
+
+.menu-bar1 ul li a {
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+    width: auto;
+
+}
+.menu-bar2 ul{
+    display: flex;
+    font-size: 20px;
+    margin-right: 0;
+    width: auto;
+}
+.menu-bar2 ul li{
+    display: flex;
+    list-style-type: none;
+    width: auto;
+}
+
+.menu-bar2 ul li a {
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    list-style-type: none;
+}
+
+/* <!-- header ends here --> */
+
+/* Main section starts here */
+
+/* main section 1 starts here */
+
+#main-section1-bimage{
+    background-image: url(1.jpg);
+    background-size: cover;
+    margin: 0 auto;
+    width: 90%;
+    height: 80vh;
+}
+
+    .main-section1{
+        position: relative;
+        margin: 0 auto;
+    }
+    .sub-main-section1{
+        position: absolute;
+        margin-top: 8%;
+        width: 100%;
+        text-align: center;
+    }
+    .heading1{
+        font-size: 3rem;
+        font-family: 'Alkatra', cursive;
+        font-weight: bolder;
+        color: white;
+        opacity: 80%;
+        letter-spacing: 5px;
+    }
+    .para1{
+        margin-top: 24vh;
+        color: rgb(255, 255, 255);
+        font-size: 2rem;
+        text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    }
+
+    .button1{
+        margin: 20px;
+        border: none;
+    }
+
+    .button1 a{
+        padding: 10px 30px;
+        text-decoration: none;
+        color: white;
+        font-size: 2rem;
+        border: 2px solid white;
+        border-radius: 5px;
+        transition: transform 0.5s;
+    }
+
+    .button1 a:hover{
+        border:none;
+        background: #000;
+    }
+    .button1:hover{
+        border:none;
+        transform: scale(0.8);
+    }
+
+/* main section 1 ends here */
+
+/* main section 2 starts here */
+
+    .main-section{
+        width: 70%;
+        
+    }
+
+    .section2-heading{
+        margin-top: 5rem;
+        text-align: center;
+        padding: 0 30px;
+        font-size: 2.5rem;
+        font-weight: 100;
+        font-family: 'Bad Script', cursive;
+    }
+
+    .hr{
+        width: 600px;
+        height: 5px;
+        margin: 0 auto;
+        background-color: #000;
+        border-radius: 50%;
+
+    }
+
+    .section2-container{
+        display: flex;
+        justify-content: center;
+        margin: 4rem;
+    }
+
+    .section2-container img{
+        width: 100%;
+        padding: 20px;
+        height: 280px;
+    }
+
+    .section2-h3{
+        text-align: center;
+        font-weight: 100;
+    }
+
+    .container2-div1{
+        width: 32%;
+    }
+    .container2-div2{
+        width: 32%;
+    }
+    .container2-div3{
+        width: 32%;
+    }
+/* main section 2 ends here */
+
+
+/* main section 3 ends here */
+
+.section3-container{
+    display: flex;
+    justify-content: center;
+    margin: 4rem;
+}
+
+.section3-container img{
+    margin: 0 20px;
+    height: 280px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.container3-div3{
+    margin: 0 5rem;
+    font-size: 1.2rem;
+    margin-bottom: 5rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/* main section 3 ends here */
+
+
+/* main section 4 stars here */
+
+.section4-container{
+    margin: 2rem 5rem;
+}
+
+.hr4{
+    width: 650px;
+    height: 5px;
+    margin: 0 auto;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.section4-div1{
+    display: flex;
+    justify-content: center;
+}
+.section4-div1 img{
+    margin: 2rem;
+    width: 100%;
+    padding: 10px;
+    height: 220px;
+}
+
+.section4-div1 img:hover{
+    transform: scale(1.2);
+}
+
+
+/* main section 4 ends here */
+
+
+/* footer section starts here */
+
+.footer-section{
+    /* margin: 0 5rem; */
+}
+
+    .footer-container{
+        display: flex;
+        margin: 3rem 5rem;
+    }
+
+.footer-logo{
+    width: 17%;
+    
+}
+
+.footer-div2{
+    width: 17%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-div2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 1.2rem;
+}
+
+.footer-div3{
+    width: 17%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-div3 a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 1.2rem;
+}
+
+#contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.footer-div4{
+    width: 30%;
+}
+.footer-div5{
+    width: 17%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.footer-div5 a{
+    color: black;
+    font-size: 1.5rem;
+    margin: 1rem;
+    transition: transform 0.4s;
+}
+
+.footer-div5 a:hover{
+    transform: scale(1.5);
+    color: green;
+}
+
+.footer-input-caption{
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.form-control input{
+    margin-bottom: 1rem;
+    display: flex;
+    width: 23rem;
+    font-size: 1rem;
+    padding: 5px 10px;
+}
+
+.form-control button{
+    color: black;
+    padding: 5px 9rem;
+    background-color: white;
+    font-weight: bold;
+}
+
+#subscribe-button{
+text-align: center;
+}
+
+.form-control button:hover{
+    color: rgb(255, 255, 255);
+    padding: 5px 9rem;
+    background-color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.last-footer{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+/* footer section ends here */
+
+
+
+
+
+
+/* Main section ends here */
